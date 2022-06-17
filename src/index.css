@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .back{
+  background: rgba(247, 247, 247, 1) 100%;
+} */
+.back:hover{
+-webkit-box-shadow: 5px -11px 15px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 5px -11px 15px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 5px -11px 15px 0px rgba(34, 60, 80, 0.2);
+}
+body{
+  background: #fff;
+}
