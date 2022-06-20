@@ -1,6 +1,7 @@
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import './index.css'
+import 'tw-elements';
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 

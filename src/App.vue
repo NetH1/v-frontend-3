@@ -1,10 +1,8 @@
 <template>
   <div>
-    <nav>
-      <RouterLink to="/">Home</RouterLink> |
-      <RouterLink to="/products">Products</RouterLink>
-          <navbar />
-    </nav>
+         <div class="mt-24">
+           <navbar />
+         </div>
     <RouterView />
   </div>
 </template>
