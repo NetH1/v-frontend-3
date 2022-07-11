@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div  class='apple_component'>
     <div class="mt-14 text-center pt-20 hero">
         <h1 class="font-semibold text-3xl sm:text-6xl">iPhone 13 Pro</h1>
         <p class="text-xl sm:text-3xl sm:my-3"> Oh. So. Pro.</p>
@@ -75,4 +75,5 @@ export default {
     background-position: center bottom;
     padding-bottom: 500px;
 }
+
 </style>

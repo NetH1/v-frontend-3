@@ -1,7 +1,7 @@
 <template>
   <div>
-         <div class="mt-24">
-           <navbar />
+         <div class="block">
+           <navbar class="relative" />
          </div>
     <RouterView />
   </div>

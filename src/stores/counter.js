@@ -1,16 +1,15 @@
 import { defineStore } from "pinia";
 
-export const useCounterStore = defineStore({
-  id: "counter",
+export const useProductsStore = defineStore({
+  id: "products",
   state: () => ({
-    counter: 0,
+    products: [],
+    product: {},
   }),
-  getters: {
-    doubleCount: (state) => state.counter * 2,
-  },
+  getters: {},
   actions: {
-    increment() {
-      this.counter++;
+    async fetchProducts() {
+      
     },
   },
 });

@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
@@ -21,8 +22,7 @@ module.exports = {
         'silver': '#f1f2ed',
         'gold': '#fae7cf',
         'graphite': '#54524f',
-        'wiht': '#fbfbfd'
-
+        'wiht': '#fbfbfd',
       },
       width:{
         'setblock': '49%'
